@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>webgl-data-visualization</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <container id="preloader">
+        <div id="loading">
+            <img src="img/loader.gif" />
+            <p>
+                LOADING<br />
+                <span id="loadStatus">Data</span>
+            </p>
+        </div>
+    </container>
+    <div id="legend">
+        <div id="dataSource"></div>
+        <div id="dataSummary"></div>
+    </div>
+    <script src="js/three.min.js"></script>
+    <script src='js/postprocessing/EffectComposer.js'></script>
+    <script src='js/postprocessing/RenderPass.js'></script>
+    <script src='js/postprocessing/ShaderPass.js'></script>
+    <script src='js/postprocessing/MaskPass.js'></script>
+    <script src='js/shaders/CopyShader.js'></script>
+    <script src='js/shaders/FilmShader.js'></script>
+    <script src='js/shaders/RGBShiftShader.js'></script>
+    <script src='js/BadTVShader.js'></script>
+    <script src='js/scripts.js'></script>
+</body>
+</html>
