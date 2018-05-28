@@ -3,11 +3,10 @@
 This project shows how to plot data on a 3D model using WebGL and ThreeJS.
 
 ## Development Technologies
-
-    + WebGL
-    + Three.js
-    + BadTVShader.js
-    + Javascript
++ WebGL
++ Three.js
++ BadTVShader.js
++ Javascript
 
 ## Development Server
 
